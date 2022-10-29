@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav__container {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.nav__container>li>a:hover {
+  scale: 1.1;
+}
+
+.container__sections__main {
+  padding: 2em 0 0 0;
+}
+
+#presentation>h2,
+#family>h2,
+#friends>h2,
+#studies>h2,
+#contact>h2 {
+  text-transform: uppercase;
+}
+
+#presentation,
+#family,
+#friends,
+#studies {
+  padding-bottom: 4em;
+  border-bottom: 1px solid #000;
+}
