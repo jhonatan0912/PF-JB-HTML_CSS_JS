@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+
+}
+
+.nav__bar {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+}
+
 .nav__container {
   display: flex;
   flex-direction: row;
@@ -18,6 +29,15 @@
   padding: 2em 0 0 0;
 }
 
+.sections {
+  height: 100vh;
+  padding-top: 5em;
+}
+
+.sections:nth-child(1) {
+  margin-top: 40px;
+}
+
 #presentation>h2,
 #family>h2,
 #friends>h2,
@@ -30,8 +50,7 @@
 #family,
 #friends,
 #studies {
-  padding-bottom: 4em;
-  border-bottom: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 footer {
