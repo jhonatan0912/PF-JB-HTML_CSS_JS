@@ -29,47 +29,6 @@ body {
   padding: 2em 0 0 0;
 }
 
-.sections {
-  min-height: 100vh;
-  padding-top: 5em;
-}
-
-.sections:nth-child(1) {
-  margin-top: 40px;
-}
-
-#presentation>h2,
-#family>h2,
-#friends>h2,
-#studies>h2,
-#contact>h2 {
-  text-transform: uppercase;
-}
-
-#presentation,
-#family,
-#friends,
-#studies {
-  border-bottom: 1px solid #000;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1.3em;
-  color: white;
-  background-color: #202020;
-}
-
-@media screen and (max-width: 768px) {
-  .information__img__container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .img__container {
-    margin: auto;
-    width: 200px;
-  }
+main {
+  padding-top: 80px;
 }
