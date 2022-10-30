@@ -33,6 +33,18 @@ main {
   padding-top: 80px;
 }
 
+.socials {
+  display: flex;
+  ;
+  gap: .5em;
+}
+
+.socials>i {
+  font-size: 2em;
+  margin: 3em auto;
+  cursor: pointer;
+}
+
 #presentation,
 #family,
 #friends,
@@ -48,4 +60,7 @@ footer {
   color: #fff;
   text-align: center;
   ;
+}
+p{
+  line-height: 1.7em;
 }
