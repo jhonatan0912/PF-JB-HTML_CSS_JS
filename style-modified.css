@@ -6,7 +6,6 @@
 
 body {
   overflow-x: hidden;
-
 }
 
 .nav__bar {
@@ -35,7 +34,6 @@ main {
 
 .socials {
   display: flex;
-  ;
   gap: .5em;
 }
 
