@@ -10,6 +10,13 @@ btnSend.addEventListener("click", (e) => {
 
     if (userName == "" || email == "" || subject == "" || message == "") {
       alert("Por favor rellenar todos los campos")
+    } else {
+      alert(`
+      Nombre: ${userName}
+      Email: ${email}
+      Asunto: ${subject}
+      Mensaje: ${message}
+      `)
     }
   }
   testInputs()
