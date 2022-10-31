@@ -43,6 +43,11 @@ main {
   cursor: pointer;
 }
 
+.socials>i:hover {
+  opacity: .8;
+  scale: 1.2;
+}
+
 #presentation,
 #family,
 #friends,
